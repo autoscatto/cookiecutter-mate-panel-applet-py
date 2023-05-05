@@ -1,0 +1,12 @@
+[Applet Factory]
+Id={{ cookiecutter.project_name }}Factory
+InProcess=false
+Location=/usr/share/mate-applets/{{ cookiecutter.project_slug }}/{{ cookiecutter.project_name }}.py
+Name={{ cookiecutter.project_name }} Factory
+Description=A {{ cookiecutter.project_name }} factory
+
+[{{ cookiecutter.project_name }}]
+Name={{ cookiecutter.project_name }}
+Description={{ cookiecutter.project_description }}
+Icon={{ cookiecutter.project_icon }}
+MateComponentId=OAFIID:MATE_{{ cookiecutter.project_name }}

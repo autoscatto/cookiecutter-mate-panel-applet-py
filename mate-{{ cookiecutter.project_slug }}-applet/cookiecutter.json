@@ -1,0 +1,6 @@
+{   "name": "Hello Applet",
+    "project_name": "{{ name|replace('-', ' ')|replace('_', ' ')|replace('.', ' ')|title()|replace(" ", "") }}",
+    "project_description ": "A nice description",
+    "project_icon": "mate",
+    "project_slug": "{{ project_name.lower()|replace(' ', '-')|replace('_', '-')|replace('.', '-')|trim() }}"
+}
